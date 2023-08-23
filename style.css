@@ -13,12 +13,6 @@ main {
     margin-top: 50px;
 }
 
-section {
-    display: grid;
-    grid-template-columns: 45vw 45vw;
-    grid-column-gap: 50px
-}
-
 header {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -46,4 +40,10 @@ header nav {
     grid-template-columns: 2fr 1fr;
     grid-column-gap: 40px;
 
+}
+
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 50px;
 }
